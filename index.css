@@ -1,0 +1,58 @@
+@import url('https://fonts.cdnfonts.com/css/mrrobot');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oswald:wght@200..700&display=swap');
+
+body {
+    background: url("pxfuel.jpg") no-repeat center center fixed;
+    backdrop-filter: contrast(1340%);
+    backdrop-filter: blur(1.2px);
+    background-size: cover;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #F3E0BC;
+}
+
+.count-div{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.red-text{
+    font-family: 'MrRobot', sans-serif;
+    color: #a11b1b;
+    font-size: 1.1em;
+    
+    -webkit-text-stroke: 0.1px black;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+
+#increment-btn {
+    background: #0f7032;
+}
+
+#save-btn {
+    background: #121487;
+}
+
